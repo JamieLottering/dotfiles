@@ -10,7 +10,7 @@ function parse_git_branch {
 }
 
 function base_dir_name {
-	echo $(basename "$PWD")
+  echo $(basename "$PWD")
 }
 
 WHITE="\[\e[1;37m\]"
